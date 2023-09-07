@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>segunda clase</title>
+  <style>
+ul.menu{
+list-style-type:none ;
+margin: 0;/*el margen puede ir arriba, abajo, derecha, izquierda*/
+padding:0 ;/*es un margen interno*/
+overflow:hidden ; /*para poner margen */
+background-color: #333333;
+}
+li a{
+    float: left;
+
+}
+li a{                           /*es para todos los li a sea directo  o indirecto*/
+display: block;
+color:white;
+text-align: center;
+padding: 16px;/* margen interna*/
+text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
+}
+
+
+ul.itp{
+list-style-type:none ;
+margin: 0;/*el margen puede ir arriba, abajo, derecha, izquierda*/
+padding:0 ;/*es un margen interno*/
+overflow:hidden ; /*para poner margen */
+background-color: #e61010;
+width: 9%;
+height:9%;
+border-radius: 20px;}
+.itp li a {
+    float:none;
+
+}
+.itp li a {                           /*es para todos los li a sea directo  o indirecto*/
+display: block;
+color:rgb(104, 82, 175);
+text-align: center;
+padding: 16px;/* margen interna*/
+text-decoration:dotted;
+}
+
+
+.itp:hover{
+    background-color: #11dc2f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+
+</head>
+
+<body>
+   
+
+<h1>lista no ordenada</h1>
+<ul>
+  <li>ingenieria de sistemas</li>
+  <li>ingenieria civil</li>
+  <li>ingenieria forestal</li>
+  <li>administracion de empresa</li>
+</ul>
+
+<h1>lista ordenada</h1>
+<ol>
+<li>tegnolog&iacute;a  en desarrollo de software</li>
+<li>tegnolog&iacute;a en recursos ambientales</li> <!-- para poner tilde -->
+<li>tegnolog&iacute;a en gesti&oacute;n empresarial</li>
+</ol>
+
+<h1>lista de definicion</h1>
+<dl>
+  <dt> 
+    sistemas
+  </dt>
+  <dd>conjunto de elementos que interactuan con un objetivo</dd>
+  <dt>computador</dt>
+  <dd>herramienta tegnológica que permite procesamiento de datos</dd>
+</dl>
+<h1>listas con enlaces para menu</h1>
+<ul class="menu">
+  <li><a href="#inicio">inicio</a></li>
+  <li><a href="#noticias">noticias</a></li>
+  <li><a href="#contact">Contactos</a></li>
+  <li><a href="#acerca">acercta de</a></li>
+</ul>
+
+<h1>Itp</h1>
+Es una institución pública de Educación Superior, comprometida con el desarrollo regional, 
+dedicada a la formación de técnicos, tecnólogos y profesionales a través de Ciclos …
+
+
+<ul class="itp">
+    <li><a href="#sistemas">sistemas</a></li>
+    <li><a href="#administracion">administracion</a></li>
+     <li><a href="#forestal">forestal</a></li>
+     <li><a href="#civil">civil</a></li>
+    
+    </ul>
+    
+
+
+
+
+
+
+
+</body>
+
+</html>
